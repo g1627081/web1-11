@@ -1,7 +1,7 @@
-ver number = Math.floor(Math.random()*3);
-ver answer = perseInt(window.prompt('数あてゲーム。0～2の数字を入力してください。'));
+var number = Math.floor(Math.random()*3);
+var answer = perseInt(window.prompt('数あてゲーム。0～2の数字を入力してください。'));
 
-ver message;
+var message;
 if(answer === number){
   message = 'あたり！';
 }else if (answer < number){
