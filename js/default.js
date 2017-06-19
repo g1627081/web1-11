@@ -2,7 +2,7 @@ var number = Math.floor(Math.random()*3);
 var answer = parseInt(window.prompt('数あてゲーム。0～2の数字を入力してください。'));
 
 var message;
-while(1){
+while(!amswer==number){
 if(answer === number){
   message = 'あたり！';break;
 }else if (answer < number){
